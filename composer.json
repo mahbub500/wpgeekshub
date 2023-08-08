@@ -1,0 +1,16 @@
+{
+    "name": "Wpgeekshub/TestPhp",
+    "authors": [
+        {
+            "name": "Mahbub",
+            "email": "wpgeekshub@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wpgeekshub\\Plugin\\" : "app/",
+            "Wpgeekshub\\Classes\\" : "classes/"
+        },
+        "files": [ "inc/functions.php" ]
+    }
+}
