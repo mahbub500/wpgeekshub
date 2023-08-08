@@ -7,10 +7,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Wpgeekshub\\Plugin\\" : "app/",
-            "Wpgeekshub\\Classes\\" : "classes/"
-        },
-        "files": [ "inc/functions.php" ]
+        "classmap": ["src/"]
     }
 }
